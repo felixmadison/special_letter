@@ -19,9 +19,9 @@ function dashOut(arr) {
 function interval(letter) {
   console.log(letter);
   if (letter == ";" || letter == "." || letter == ",") {
-    return Math.floor(Math.random() * 200 + 300); 
+    return Math.floor(Math.random() * 200 + 400); 
   } else {
-    return Math.floor(Math.random() * 100 + 5); 
+    return Math.floor(Math.random() * 110 + 5); 
   }
 }
 
